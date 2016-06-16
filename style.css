@@ -1,14 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
 	margin: 0;
     padding: 0;
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
+	color: #333;
+	font-weight: normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Bitter', serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 25px;
 }
 
 .wrapper {
     max-width: 900px;
     margin: 0 auto;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+}
+
+.wrapper .header {
+    padding: 10px 30px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.header h1 {
+    color: #F90B6D;
+}
+
+.wrapper  .content {
+	padding: 10px 30px;
 }
 
 td.ab-table-col {
@@ -17,4 +50,8 @@ td.ab-table-col {
 
 td.ab-table-col.ab-table-col-main {
     font-weight: bold;
+}
+
+.ab-table {
+	margin-bottom: 20px;
 }
