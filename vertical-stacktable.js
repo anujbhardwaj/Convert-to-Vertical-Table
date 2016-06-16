@@ -42,4 +42,6 @@ $('.ab-table-responsive').each(function(){
 	$(this).prev('table').find('tr').first().addClass('ab-table-row-main');
 	$(this).prev('table').find('td').addClass('ab-table-col');
 	$(this).prev('table').find('tr').first().find('td').addClass('ab-table-col-main');
+	$('.ab-table').attr('border', '1');
+	$('.ab-table').attr('cellspacing', '0');
 });
