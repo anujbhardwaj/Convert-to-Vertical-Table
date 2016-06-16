@@ -8,7 +8,6 @@
 
 $('.ab-table-responsive').each(function(){
 
-	var table = document.getElementsByClassName('desktop-view');
 	var tr = $(this).find('tr');
 	var td;
 	var newTable = document.createElement('table');
