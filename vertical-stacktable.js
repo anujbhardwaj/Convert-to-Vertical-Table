@@ -34,13 +34,13 @@ $('.ab-table-responsive').each(function(){
 	}
 
 
-	$(this).before(newTable);
-	$(this).prev('table').addClass('ab-table');
-	$(this).prev('table').find('tr').addClass('ab-table-row');
-	$(this).prev('table').find('td').addClass('ab-table-col');
-	$(this).prev('table').find('tr').first().addClass('ab-table-row-main');
-	$(this).prev('table').find('td').addClass('ab-table-col');
-	$(this).prev('table').find('tr').first().find('td').addClass('ab-table-col-main');
+	$(this).after(newTable);
+	$(this).next('table').addClass('ab-table');
+	$(this).next('table').find('tr').addClass('ab-table-row');
+	$(this).next('table').find('td').addClass('ab-table-col');
+	$(this).next('table').find('tr').first().addClass('ab-table-row-main');
+	$(this).next('table').find('td').addClass('ab-table-col');
+	$(this).next('table').find('tr').first().find('td').addClass('ab-table-col-main');
 	$('.ab-table').attr('border', '1');
 	$('.ab-table').attr('cellspacing', '0');
 });
