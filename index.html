@@ -11,7 +11,7 @@
 <body>
 <div class="wrapper">
 <h1>Demo 1</h1>
-<table class="ab-table-responsive" style="margin-left: auto; margin-right: auto;" cellspacing="0" border="1">
+<table class="ab-table-responsive" cellspacing="0" border="1">
 	<tbody>
 		<tr>
 			<td><strong>Quantity</strong></td>
@@ -37,7 +37,7 @@
 </table>
 
 <h1>Demo 2</h1>
-<table class="ab-table-responsive" style="margin-left: auto; margin-right: auto;" cellspacing="0" border="1">
+<table class="ab-table-responsive" cellspacing="0" border="1">
 	<tbody>
 		<tr>
 			<td><strong>Car Name</strong></td>
@@ -61,7 +61,7 @@
 </table>
 
 <h1>Demo 3</h1>
-<table class="ab-table-responsive" style="margin-left: auto; margin-right: auto;" cellspacing="0" border="1">
+<table class="ab-table-responsive" cellspacing="0" border="1">
 	<tbody>
 		<tr>
 			<td><strong>Bike Name</strong></td>
@@ -87,7 +87,7 @@
 </table>
 
 <h1>Demo 4</h1>
-<table class="ab-table-responsive" style="margin-left: auto; margin-right: auto;" cellspacing="0" border="1">
+<table class="ab-table-responsive" cellspacing="0" border="1">
 	<tbody>
 		<tr>
 			<td><strong>Student Name</strong></td>
@@ -136,6 +136,13 @@
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="vertical-stacktable.js" type="text/javascript"></script>
+
+<script>
+$(window).load(function(){
+	$('.ab-table').before('<h3>Converted Table</h3>');
+	$('.ab-table-responsive').before('<h3>Original Table</h3>');
+});
+</script>
 
 </body>
 </html>
