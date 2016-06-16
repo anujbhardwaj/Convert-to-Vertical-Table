@@ -8,4 +8,4 @@ You just need to add **ab-table-responsive** class on your table.
 
 ## Legal
 
-Author: ** Anuj Bhardwaj **
+Author: **Anuj Bhardwaj**
