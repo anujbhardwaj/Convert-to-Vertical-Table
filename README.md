@@ -4,7 +4,7 @@ The Responsive Table jQuery plugin for converting horizontal tables to vertical 
 
 ## How to Use
 
-You just need to add **ab-table-responsive** class on your table.
+You just need to add **table-responsive** class on your table.
 
 ## Legal
 
