@@ -48,15 +48,15 @@ h3 {
 	padding: 10px 30px;
 }
 
-td.ab-table-col {
+td.table-col {
     padding: 5px 10px;
 }
 
-td.ab-table-col.ab-table-col-main {
+td.table-col.table-col-main {
     font-weight: bold;
 }
 
-.ab-table {
+.table {
 	margin-bottom: 20px;
 }
 
