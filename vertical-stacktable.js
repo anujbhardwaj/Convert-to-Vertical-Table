@@ -6,7 +6,7 @@
 *
 */
 
-$('.ab-table-responsive').each(function(){
+$('.table-responsive').each(function(){
 
 	var tr = $(this).find('tr');
 	var td;
@@ -35,12 +35,12 @@ $('.ab-table-responsive').each(function(){
 
 
 	$(this).after(newTable);
-	$(this).next('table').addClass('ab-table');
-	$(this).next('table').find('tr').addClass('ab-table-row');
-	$(this).next('table').find('td').addClass('ab-table-col');
-	$(this).next('table').find('tr').first().addClass('ab-table-row-main');
-	$(this).next('table').find('td').addClass('ab-table-col');
-	$(this).next('table').find('tr').first().find('td').addClass('ab-table-col-main');
-	$('.ab-table').attr('border', '1');
-	$('.ab-table').attr('cellspacing', '0');
+	$(this).next('table').addClass('vertical-stacktable');
+	$(this).next('table').find('tr').addClass('table-row');
+	$(this).next('table').find('td').addClass('table-col');
+	$(this).next('table').find('tr').first().addClass('table-row-main');
+	$(this).next('table').find('td').addClass('table-col');
+	$(this).next('table').find('tr').first().find('td').addClass('table-col-main');
+	$('.vertical-stacktable').attr('border', '1');
+	$('.vertical-stacktable').attr('cellspacing', '0');
 });
