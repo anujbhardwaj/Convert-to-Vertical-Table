@@ -37,10 +37,9 @@ $('.table-responsive').each(function(){
 	$(this).after(newTable);
 	$(this).next('table').addClass('vertical-stacktable');
 	$(this).next('table').find('tr').addClass('table-row');
-	$(this).next('table').find('td').addClass('table-col');
+	$(this).next('table').find('td').addClass('table-cell');
 	$(this).next('table').find('tr').first().addClass('table-row-main');
-	$(this).next('table').find('td').addClass('table-col');
-	$(this).next('table').find('tr').first().find('td').addClass('table-col-main');
+	$(this).next('table').find('tr').first().find('td').addClass('table-cell-main');
 	$('.vertical-stacktable').attr('border', '1');
 	$('.vertical-stacktable').attr('cellspacing', '0');
 });
