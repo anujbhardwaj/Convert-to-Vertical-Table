@@ -48,11 +48,11 @@ h3 {
 	padding: 10px 30px;
 }
 
-td.table-col {
+td.table-cell {
     padding: 5px 10px;
 }
 
-td.table-col.table-col-main {
+td.table-cell.table-cell-main {
     font-weight: bold;
 }
 
